@@ -3,9 +3,11 @@
 
 // your code
 let sum = 1
+const firstNumber = 1
+const lastNumber = 20
 
 while (sum <= 20) {
-    sum += sum
+    sum ++
 }
-
 console.log(sum)
+
