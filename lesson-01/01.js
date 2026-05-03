@@ -7,7 +7,7 @@ const firstNumber = 1
 const lastNumber = 20
 
 while (sum <= 20) {
-    sum ++
+    sum = sum + 1
 }
 console.log(sum)
 
