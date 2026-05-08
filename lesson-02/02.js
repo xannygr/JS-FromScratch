@@ -7,10 +7,11 @@
 * Для успешного прохождения тестов не меняйте названия переменных!
 */
 
-let dice1 // your code
+let dice1 = Math.floor(Math.random(1 * 6))// your code
 let dice2 // your code
 let isWinningDouble // your code
 
+console.log(dice1)
 /*
 console.log('Первый бросок: ' + dice1)
 console.log('Второй бросок: ' + dice2)

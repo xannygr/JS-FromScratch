@@ -20,7 +20,6 @@ if (isAdmin === true || isVerifiedUser === true
     && hasSpecialPermission === true || hasTemporaryPass === true){
 
         isAccess = true
-        alert('you can enter')
 }
 
 
