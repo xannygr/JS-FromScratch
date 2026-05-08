@@ -16,10 +16,12 @@ const hasTemporaryPass = false
 let isAccess;
 
 // your code
-if (isAdmin === true || isVerifiedUser === true
-    && hasSpecialPermission === true || hasTemporaryPass === true){
+if ((isAdmin === true || isVerifiedUser === true)
+    && (hasSpecialPermission === true || hasTemporaryPass === true)){
 
-        isAccess = true
+    isAccess = true
+} else {
+    isAccess = false
 }
 
 
