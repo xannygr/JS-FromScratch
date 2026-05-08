@@ -6,12 +6,25 @@
 
 * Для успешного прохождения тестов не меняйте названия переменных!
 */
-
-let dice1 = Math.floor(Math.random(1 * 6))// your code
-let dice2 // your code
+// let userChoice = prompt("Enter a choice").toLowerCase();
+// let userChoice = prompt("Enter a choice");
+let dice1 = Math.floor(Math.random() * 6)// your code
+let dice2 = Math.floor(Math.random() * 6)// your code
 let isWinningDouble // your code
 
-console.log(dice1)
+while (dice1 > 0 && dice2 > 0) {
+    console.log('Первый бросок: ' + dice1)
+    console.log('Второй бросок: ' + dice2)
+    
+    if (dice1 === dice2 && dice1, dice2 > 3) {
+    isWinningDouble = true
+  }
+  if (isWinningDouble) {
+    console.log('Выигрышный дубль!')
+  } else {
+    console.log('Не выигрышный дубль.')
+}
+}
 /*
 console.log('Первый бросок: ' + dice1)
 console.log('Второй бросок: ' + dice2)
