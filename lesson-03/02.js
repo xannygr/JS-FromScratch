@@ -5,4 +5,4 @@ function isEven (number) {
     return number % 2 === 0;
 }
 
-isEven (56)
+isEven (56, 97)
