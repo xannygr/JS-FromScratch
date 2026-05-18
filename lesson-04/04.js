@@ -14,9 +14,10 @@
 
 function doubleEachCharacter(str) {
     let newStr = '';
-    for (let i = 1; i <= str.lenght; i++){
-        newStr = str[i] * 2
+    for (let i = 0; i < str.length; i++){
+        newStr += str[i] + str[i];
     }
     return newStr
 }
-doubleEachCharacter('hello')
+let result = doubleEachCharacter('hello')
+console.log(result);
