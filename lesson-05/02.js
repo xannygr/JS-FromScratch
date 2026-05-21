@@ -35,6 +35,6 @@ const gallery = {
   'The Scream': 'Edvard Munch',
 }
 
-function updateGallery(object, name) {
-  
+function updateGallery(gallery, object, name) {
+  gallery[object] = name;
 }
